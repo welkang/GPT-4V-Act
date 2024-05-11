@@ -5,10 +5,12 @@ const fs = require('fs/promises');
 
 const sleep = promisify(setTimeout);
 
-const OpenAIChatController = require('./chatgpt');
+// const OpenAIChatController = require('./chatgpt');
+const CozeChatController = require('./coze');
 let win;
 
-const controller = new OpenAIChatController();
+// const controller = new OpenAIChatController();
+const controller = new CozeChatController();
 
 const prompt = (task, info) => `task: ${task}
 

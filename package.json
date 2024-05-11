@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "electron": "^27.0.1",
+    "form-data": "^4.0.0",
     "node-fetch": "^3.3.2",
     "puppeteer": "^21.4.0",
     "puppeteer-extra": "^3.3.6",
